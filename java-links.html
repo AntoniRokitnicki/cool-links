@@ -1,7 +1,31 @@
-https://tschatzl.github.io/2024/07/22/jdk23-g1-serial-parallel-gc-changes.html
-https://www.ntietz.com/blog/til-testing-future-using-faketime/
-https://rieckpil.de/generating-java-test-data-with-instancio/
-https://rieckpil.de/reducing-testcontainers-execution-time-with-junit-5-callbacks/
-https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let links = document.body.textContent.trim().split('\n');
+            document.body.innerHTML = '';
+            links.forEach(link => {
+                let a = document.createElement('a');
+                a.href = link;
+                a.textContent = link;
+                a.target = '_blank';
+                document.body.appendChild(a);
+                document.body.appendChild(document.createElement('br'));
+            });
+        });
+    </script>
+</head>
+<body>
+    https://tschatzl.github.io/2024/07/22/jdk23-g1-serial-parallel-gc-changes.html
+    https://www.ntietz.com/blog/til-testing-future-using-faketime/
+    https://rieckpil.de/generating-java-test-data-with-instancio/
+    https://rieckpil.de/reducing-testcontainers-execution-time-with-junit-5-callbacks/
+    https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
 
-https://www.oreilly.com/radar/radar-trends-to-watch-july-2024/
+    https://www.oreilly.com/radar/radar-trends-to-watch-july-2024/
+</body>
+</html>
